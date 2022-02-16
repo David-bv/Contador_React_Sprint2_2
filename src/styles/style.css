@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    background-image: url(https://res.cloudinary.com/david-b/image/upload/v1644983016/bgwhite_z9jqde.png);
+    background-color: #1f1d28;
+    height: 100vh;
+}
+
+.Count {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Icon {
+    background-color: #211a29;
+    width: 100vw;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(https://res.cloudinary.com/david-b/image/upload/v1644980523/pattern-hills_opok9o.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icoFa:hover {
+    color: #fb5f85;
+    cursor: pointer;
+}
+
+.icoPin:hover {
+    color: #fb5f85;
+    cursor: pointer;
+}
+
+.icoIns:hover {
+    color: #fb5f85;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .Icon {
+        background-color: #211a29;
+        width: 100vw;
+        height: 160px;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        background-image: url(https://res.cloudinary.com/david-b/image/upload/v1644980523/pattern-hills_opok9o.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: -770px;
+        padding-bottom: 20px;
+    }
+}
