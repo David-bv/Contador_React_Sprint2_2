@@ -31,6 +31,14 @@
     background-size: cover;
 }
 
+.dev {
+    color: rgba(255, 255, 255, 0.562);
+    text-align: center;
+    font-family:'Red Hat Text', sans-serif;
+    position: relative;
+    top: 8.5rem;
+}
+
 .icoFa:hover {
     color: #fb5f85;
     cursor: pointer;

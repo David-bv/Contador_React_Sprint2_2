@@ -11,7 +11,7 @@ const Icons = () => {
                 <GrPinterest className='icoPin'/>
                 <GrInstagram className='icoIns'/>
             </IconBot>
-
+            <h4 className='dev'>Desarrollado por David Bolivar </h4>
         </div>
 
     )

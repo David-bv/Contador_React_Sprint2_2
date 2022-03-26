@@ -51,7 +51,7 @@ export const TextTime = styled.h3`
     color: #d3506f;
     font-family:'Red Hat Text', sans-serif;
     font-weight: 700;
-    font-size: 90px;
+    font-size: 80px;
     text-align: center;
     position: relative;
     margin: 0;
